@@ -1,0 +1,258 @@
+body{
+  margin:0px;
+ 
+}
+
+.appbar{
+  background-color: blueviolet;
+}
+
+.AppBar{
+  color:black;
+  background-color: blue;
+}
+.signup-form,.signin-form{
+display:flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 500px;
+    margin:10px auto;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.filters{
+  display:flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  padding:15px 20px;
+  box-shadow: 0 0 3px gray;
+  background-color: rgb(248, 199, 107);
+ 
+ 
+
+}
+.test{
+  display:flex;
+  align-items: right;
+  justify-content: space-between;
+}
+
+.add-form{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  max-width: 500px;
+  margin:10px auto;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.btn{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+  min-width:1000px;
+  border-collapse: collapse;
+}
+ thead th{
+  position:sticky;
+  top:0;
+  font-size: 15px;
+ }
+ /* th,td{
+  border-bottom: 1px solid #dddddd;
+  padding:10px 20px;
+  word-break:break-all;
+  text-align: center;
+ } */
+
+ .filter{
+  display: flex;
+  padding-top: 40px;
+  justify-content:space-around
+ }
+
+ .table-section{
+  padding-top: 20px;
+ }
+
+ .icons,.icons1{
+  display: flex;
+  gap:20px;
+  /* border:1px solid black; */
+  border-radius:5px;
+  padding:10px 15px;
+
+ }
+
+ .analytics
+ {
+  display: flex;
+  gap:70px;
+  align-items: center; 
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-right: 70px;
+ justify-content: space-around;
+ }
+
+ /* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+} */
+.tb{
+  /* width:50%; */
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+ 
+  
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:whitesmoke
+}
+
+tr:nth-child(odd){
+  background-color: rgb(226, 173, 74)
+}
+
+.select{
+  color: orange;
+}
+
+.progress1,.progress2{
+  display:flex;
+  gap:80px;
+}
+.incomechart{
+  color:green;
+}
+.expensechart{
+  color:crimson;
+}
+
+.sign-in{
+
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 40px;
+    background:hsl(40, 100%, 50%);
+    border-radius: 15px ;
+ 
+
+}
+
+.sign-in-heading,.app-name{
+  text-align: center;
+    color: #ff6d00;
+    padding-top: 30px;
+  
+}
+
+.lbl1,.lbl2{
+  color:#e65100;
+  font-size: 17px;
+ margin-top: 20px;
+
+}
+
+.Uname,.pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+  
+   
+}
+
+.btn-signin{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: whitesmoke;
+    background-color: #ff6d00;
+}
+  /* margin-left: auto;
+  margin-right: auto; */
+.usr-img{
+  background: url("user.png") no-repeat;
+}
+
+.link{
+  text-align: center;
+}
+
+/* @media screen and (min-width: 120rem) {
+  .analytics {
+    margin: 1em 2em;
+    display: flex;
+    gap:20px;
+  }
+} */
+
+/* .analytics1{
+  max-width: 40%;
+} */
+
+/* .App{
+  overflow: hidden;
+} */
+
+/* .analytics1{
+  display:flex ;
+  flex-wrap: wrap;
+} */
+
+/* .analytics1,.analytics2{
+  width:40%;
+ 
+} */
+
+.content1,.content2{
+  display: flex;
+  flex-direction: column;
+}
+
+.progress1,.progress2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.AppBar {
+ 
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 0px 5px silver;
+}
+
+
+
